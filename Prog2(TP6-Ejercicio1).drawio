@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T19:15:40.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="y5z3Y4TMKzdMe_luWZ_r" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T19:30:55.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kdi9GCYtSr3BzLFVQMC7" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1035" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -35,10 +35,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xOoFjg1MgwEFbZOizuD8-14" value="ICOMPONENTE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="250" width="130" height="30" as="geometry" />
+          <mxGeometry x="120" y="250" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xOoFjg1MgwEFbZOizuD8-15" value="COMPONENTE CONCRETO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="680" width="130" height="50" as="geometry" />
+          <mxGeometry x="35" y="680" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xOoFjg1MgwEFbZOizuD8-16" value="DECORADOR &lt;br&gt;CONCRETO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="910" y="390" width="130" height="50" as="geometry" />
