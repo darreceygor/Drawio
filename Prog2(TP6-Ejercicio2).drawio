@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T19:46:06.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="NGUuyQpLou-MB_kVjccr" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T20:07:58.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Rpl0mpu71yK3_VTr6GGk" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="zS4d0f0AooRDxBEl1E1j-0" value="2. Centro de Cómputos&#xa;Un centro de cómputos se encarga de ejecutar procesos utilizando algunas de las&#xa;computadoras que dispone. Si no hay computadoras disponibles los procesos a ejecutar deben&#xa;esperar en una cola de espera que los ordena teniendo en cuenta sus requerimientos de&#xa;memoria (los procesos con mayor requerimiento de memoria serán atendidos en primer&#xa;lugar). Las computadoras disponibles para ejecutar procesos se ordenan en una cola que&#xa;prioriza la selección de las computadoras más rápidas." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="40" width="560" height="120" as="geometry" />
+        <mxCell id="zS4d0f0AooRDxBEl1E1j-0" value="&lt;b&gt;2. Centro de Cómputos&lt;br&gt;&lt;/b&gt;&lt;br&gt;Un centro de cómputos se encarga de ejecutar procesos utilizando algunas de las&lt;br&gt;computadoras que dispone. Si no hay computadoras disponibles los procesos a ejecutar deben&lt;br&gt;esperar en una cola de espera que los ordena teniendo en cuenta sus requerimientos de&lt;br&gt;memoria (los procesos con mayor requerimiento de memoria serán atendidos en primer&lt;br&gt;lugar). Las computadoras disponibles para ejecutar procesos se ordenan en una cola que&lt;br&gt;prioriza la selección de las computadoras más rápidas." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="40" width="560" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zS4d0f0AooRDxBEl1E1j-5" value="Process" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="200" width="160" height="200" as="geometry" />
@@ -20,16 +20,16 @@
           <mxGeometry y="98" width="160" height="102" as="geometry" />
         </mxCell>
         <mxCell id="zS4d0f0AooRDxBEl1E1j-9" value="Computer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="200" width="200" height="200" as="geometry" />
+          <mxGeometry x="240" y="200" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="zS4d0f0AooRDxBEl1E1j-10" value="- availablePC: boolean&#xa;- velovity: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zS4d0f0AooRDxBEl1E1j-9">
-          <mxGeometry y="26" width="200" height="74" as="geometry" />
+          <mxGeometry y="26" width="240" height="74" as="geometry" />
         </mxCell>
         <mxCell id="zS4d0f0AooRDxBEl1E1j-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zS4d0f0AooRDxBEl1E1j-9">
-          <mxGeometry y="100" width="200" height="8" as="geometry" />
+          <mxGeometry y="100" width="240" height="8" as="geometry" />
         </mxCell>
         <mxCell id="zS4d0f0AooRDxBEl1E1j-12" value="+ addProcess: void&#xa;+ getVelocity(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zS4d0f0AooRDxBEl1E1j-9">
-          <mxGeometry y="108" width="200" height="92" as="geometry" />
+          <mxGeometry y="108" width="240" height="92" as="geometry" />
         </mxCell>
         <mxCell id="zS4d0f0AooRDxBEl1E1j-13" value="ProcessQueue" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="520" y="200" width="280" height="200" as="geometry" />
