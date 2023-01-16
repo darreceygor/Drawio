@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T12:39:59.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="5tSm_TJpILKSJ8U-m66I" type="github"><diagram id="6LsndL8VjOB3J3pvdg0s">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-16T13:24:29.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="1oeL9cdtbA8p-mTWmfdw" type="github">
+  <diagram id="RUNYB3Lfo9o9hnb5Vv8b" name="Página-1">
+    <mxGraphModel dx="880" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i5u195WV6buLgaQfwRMd-1" value="Animal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="200" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-2" value="- edad: int&#xa;- peso: double&#xa;- raza: String&#xa;- sexo: String&#xa;- fueCapado: boolean&#xa;- ternerosParidos: int&#xa;- chipID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i5u195WV6buLgaQfwRMd-1">
+          <mxGeometry y="26" width="200" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i5u195WV6buLgaQfwRMd-1">
+          <mxGeometry y="150" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-4" value="+ contarAnimal(): int&#xa;+ getEdad(): int&#xa;+ cumpleCriteriocamion(): &#xa;        booelan&#xa;+ eliminarElegido(): void&#xa;+ getCategoria (): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i5u195WV6buLgaQfwRMd-1">
+          <mxGeometry y="158" width="200" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-5" value="Rodeo/Establecimiento/Empresa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-6" value="- listaAnimales: ArrayList&lt;Animal&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i5u195WV6buLgaQfwRMd-5">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i5u195WV6buLgaQfwRMd-5">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-8" value="+ contarAnimal(): int&#xa;+ promedioEdad(): int&#xa;+ pesoTotal(): double &#xa;+ promedioPeso() double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i5u195WV6buLgaQfwRMd-5">
+          <mxGeometry y="60" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-9" value="ITEM INDIVIDUAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-10" value="ITEM COMPUESTO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-11" value="COMPONENTE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-20" value="●&amp;nbsp;Todos los animales deben ser de la raza “aberdeen angus”&lt;br&gt;● Todos los animales deben tener un peso superior a 650 Kg.&lt;br&gt;● Todos los animales deben tener una edad superior a 4 años.&lt;br&gt;● Todos los animales deben tener un peso superior a 500 Kg o una edad superior a 5&amp;nbsp;años.&lt;br&gt;● Todos los animales deben tener una edad superior a 3 años y ser de la raza&amp;nbsp;“Hereford”." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-21" value="COMPARATOR / COMPARABLE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-22" value="Camion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="240" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-23" value="- capacidad: int&#xa;- condiciones: ArrayList&lt;String&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i5u195WV6buLgaQfwRMd-22">
+          <mxGeometry y="26" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i5u195WV6buLgaQfwRMd-22">
+          <mxGeometry y="100" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="i5u195WV6buLgaQfwRMd-25" value="+ agregarElegido(): Animal&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i5u195WV6buLgaQfwRMd-22">
+          <mxGeometry y="108" width="240" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
