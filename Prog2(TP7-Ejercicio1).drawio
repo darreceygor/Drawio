@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T19:13:28.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="On7Gk_IjA2jbi_CH2B3m" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T19:16:33.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="x5Hee9iB2Sa35CEBCZsT" type="github">
   <diagram id="H_dTRidz2jpQoJVOs-p8" name="Página-1">
     <mxGraphModel dx="1395" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cCCzXjucm2LXmUzTbs8H-1" value="1. Agroquímicos&lt;br&gt;Se debe diseñar e implementar un sistema para una empresa agrícola que se dedica a la&lt;br&gt;fabricación y venta de productos químicos. Un &lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;producto químico&lt;/span&gt; tiene asociado un nombre,&lt;br&gt;un conjunto cultivos donde se desaconseja su uso (por ejemplo girasol, lino, maíz), y un&lt;br&gt;conjunto de estados patológicos que pueden observarse sobre los cultivos, y que es capaz de&lt;br&gt;tratar (por ejemplo hojas amarillas, caída prematura de frutos, hojas mordidas, entre otros).&lt;br&gt;El sistema está pensado para ayudar a las agrícolas a decidir qué agroquímico se puede&lt;br&gt;utilizar para tratar ciertas enfermedades de los cultivos. Una enfermedad tiene un nombre&lt;br&gt;asociado y un conjunto de estados patológicos que deben ser tratados. Por ejemplo:&lt;br&gt;Cochinilla (estados patológicos: deshidratación, hojas amarillas). Aclaración : los estado&lt;br&gt;patológicos de una enfermedad se corresponden con los estados patológicos que los&lt;br&gt;productos son capaces de tratar.&lt;br&gt;Un cultivo, tiene un nombre y una colección de enfermedades frecuentes que lo pueden&lt;br&gt;afectar. Asimismo dado un producto químico, los cultivos son capaces de decir si en algún&lt;br&gt;momento puede serle de utilidad o no, es decir si el agroquímico puede tratar una de sus&lt;br&gt;enfermedades frecuentes y no se desaconseja su uso en el cultivo. Se considera que el&lt;br&gt;agroquímico trata una enfermedad si todos los estados patológicos de la enfermedad están&lt;br&gt;contenidos por las acciones del producto químico.&lt;br&gt;Se debe proveer los siguientes servicios:&lt;br&gt;● Proveer un listado de agroquímicos que puedan tratar una enfermedad determinada.&lt;br&gt;● Dado un cultivo y una enfermedad devolver el listado de agroquímicos con los&lt;br&gt;pueden tratar. Tener en cuenta que ciertos agroquímicos no pueden aplicarse sobre&lt;br&gt;determinados cultivos." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="530" height="640" as="geometry" />
+          <mxGeometry x="40" y="40" width="530" height="360" as="geometry" />
         </mxCell>
         <mxCell id="cCCzXjucm2LXmUzTbs8H-2" value="Agroquimico" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="40" width="240" height="220" as="geometry" />
@@ -42,6 +42,18 @@
         </mxCell>
         <mxCell id="cCCzXjucm2LXmUzTbs8H-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cCCzXjucm2LXmUzTbs8H-10">
           <mxGeometry y="98" width="240" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cCCzXjucm2LXmUzTbs8H-18" value="EnumCultivo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cCCzXjucm2LXmUzTbs8H-19" value="Girasol,&#xa;Lino,&#xa;Soja,&#xa;Maiz,&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cCCzXjucm2LXmUzTbs8H-18">
+          <mxGeometry y="26" width="160" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="cCCzXjucm2LXmUzTbs8H-23" value="EnumPatologia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cCCzXjucm2LXmUzTbs8H-24" value="hojas_amarillas,&#xa;caída_prematura_de_frutos,&#xa;hojas_mordidas,&#xa;deshidratacion," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cCCzXjucm2LXmUzTbs8H-23">
+          <mxGeometry y="26" width="180" height="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
