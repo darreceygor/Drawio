@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T19:16:33.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="x5Hee9iB2Sa35CEBCZsT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T19:17:19.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="dmVHarGo4269LMu22I27" type="github">
   <diagram id="H_dTRidz2jpQoJVOs-p8" name="Página-1">
     <mxGraphModel dx="1395" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -50,10 +50,10 @@
           <mxGeometry y="26" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="cCCzXjucm2LXmUzTbs8H-23" value="EnumPatologia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="480" width="180" height="160" as="geometry" />
+          <mxGeometry x="240" y="480" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cCCzXjucm2LXmUzTbs8H-24" value="hojas_amarillas,&#xa;caída_prematura_de_frutos,&#xa;hojas_mordidas,&#xa;deshidratacion," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cCCzXjucm2LXmUzTbs8H-23">
-          <mxGeometry y="26" width="180" height="134" as="geometry" />
+          <mxGeometry y="26" width="200" height="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
