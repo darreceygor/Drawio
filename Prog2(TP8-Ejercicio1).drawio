@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T18:46:15.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.16" etag="iwRHBaPectXx9Y3jDglc" type="github"><diagram name="Página-1" id="8G9Foo6iV6af_ZD1BZxc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-13T20:15:43.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ECxPLp5B8IBbSr4odV8B" version="20.8.16" type="github">
+  <diagram name="Página-1" id="8G9Foo6iV6af_ZD1BZxc">
+    <mxGraphModel dx="1434" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-1" value="1. Futbol 5&#xa;Reformular el ejercicio del práctico anterior agregando la funcionalidad resaltada. Un club de&#xa;fútbol 5 necesita un sistema que le permita llevar control de sus socios y alquileres de&#xa;canchas. Cada socio posee un nombre y apellido, una edad, si tiene paga la última cuota y una&#xa;lista que contiene información de los alquileres de canchas que ha realizado. Cuando un socio&#xa;alquila una cancha, se registra la fecha, el ID de la cancha que alquiló y cuánto pagó por el&#xa;alquiler.&#xa;Cuando el dueño del club arriba al predio, le pide a los que administran el sistema, diferentes&#xa;listados, para comprobar cómo está funcionando el club:&#xa;a) Todas los socios con cuota impaga, ordenados alfabéticamente (primero por&#xa;apellido, y si hay varios con el mismo apellido por nombre)&#xa;b) Todos los socios menores de edad, ordenados por edad&#xa;c) Todos los socios que alquilaron alguna vez la cancha N°13, ordenados cantidad&#xa;total de alquileres de esa cancha.&#xa;d) Todos los socios que pagaron más de $500 por algún alquiler de cancha, listando&#xa;primero los que tienen las cuotas pagas, ordenados alfabéticamente y luego los&#xa;morosos, también ordenados alfabéticamente.&#xa;e) Cualquier combinación lógica de búsquedas." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-11" value="Socio" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-12" value="- nombre: String&#xa;- apelilido: String&#xa;- edad: int&#xa;- cuotaPaga: boolean&#xa;- alquileres: Alquiler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JHZNtHtoCJI5sg7lC9sr-11">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JHZNtHtoCJI5sg7lC9sr-11">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-14" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JHZNtHtoCJI5sg7lC9sr-11">
+          <mxGeometry y="128" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-15" value="Cancha" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-16" value="- fechaAlquiler: LocalDate&#xa;- idCancha: int&#xa;- valorAlquiler: dobule " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JHZNtHtoCJI5sg7lC9sr-15">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JHZNtHtoCJI5sg7lC9sr-15">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JHZNtHtoCJI5sg7lC9sr-18" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JHZNtHtoCJI5sg7lC9sr-15">
+          <mxGeometry y="128" width="160" height="82" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
